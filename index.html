@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>سلسلة تمارين الدوال - منصة نوفل التعليمية</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        body { font-family: 'Cairo', sans-serif; background-color: #f0f2f5; padding: 20px; line-height: 1.8; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 30px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .header { text-align: center; border-bottom: 4px solid #2c3e50; margin-bottom: 30px; padding-bottom: 10px; }
+        .header h1 { color: #2c3e50; font-size: 26px; }
+        .section-title { background: #e67e22; color: white; padding: 10px 20px; border-radius: 5px; margin-top: 30px; display: inline-block; }
+        .exercise { border-right: 6px solid #3498db; background: #fafafa; padding: 20px; margin: 20px 0; border-radius: 5px; }
+        .ex-head { font-weight: bold; color: #2980b9; margin-bottom: 15px; display: block; font-size: 1.2em; }
+        .math-box { background: #fff; border: 1px solid #ddd; padding: 15px; margin: 15px 0; text-align: center; border-radius: 10px; font-size: 1.3em; color: #d35400; }
+        ul { list-style: none; padding-right: 15px; }
+        li { margin-bottom: 10px; position: relative; }
+        li::before { content: "•"; color: #3498db; font-weight: bold; margin-left: 10px; }
+        .footer { text-align: center; margin-top: 40px; font-size: 0.9em; color: #7f8c8d; border-top: 1px solid #eee; padding-top: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>سلسلة تمارين: الدوال الأسية واللوغاريتمية</h1>
+        <p>مخصص لطلبة منصة نوفل التعليمية - بدون تكامل</p>
+    </div>
+
+    <div class="section-title">أولاً: الدوال الأسية</div>
+
+    <div class="exercise">
+        <span class="ex-head">التمرين الأول: دراسة تغيرات</span>
+        <p>نعتبر الدالة \( f \) المعرفة على مجموعة الأعداد الحقيقية \( \mathbb{R} \) بالعبارة التالية:</p>
+        <div class="math-box">
+            \( f(x) = (x - 1)e^x + 2 \)
+        </div>
+        <ul>
+            <li>أحسب النهاية عند \( -\infty \) وعند \( +\infty \).</li>
+            <li>أدرس إشارة المشتقة \( f'(x) \) واستنتج اتجاه تغير الدالة.</li>
+            <li>شكل جدول التغيرات كاملاً.</li>
+        </ul>
+    </div>
+
+    <div class="exercise">
+        <span class="ex-head">التمرين الثاني: الدوال الكسرية الأسية</span>
+        <p>لتكن الدالة \( g \) معرفة على \( \mathbb{R} \) بـ:</p>
+        <div class="math-box">
+            \( g(x) = \frac{e^x - 1}{e^x + 1} \)
+        </div>
+        <ul>
+            <li>أثبت أن الدالة \( g \) فردية وفسر ذلك بيانياً.</li>
+            <li>أحسب \( g'(x) \) وبين أنها موجبة تماماً على مجال تعريفها.</li>
+        </ul>
+    </div>
+
+    <div class="exercise">
+        <span class="ex-head">التمرين الثالث: المستقيمات المقاربة</span>
+        <p>نعتبر الدالة \( h \) المعرفة على \( \mathbb{R} \) بـ:</p>
+        <div class="math-box">
+            \( h(x) = 2x + 1 - e^x \)
+        </div>
+        <ul>
+            <li>بين أن المستقيم \( (\Delta) \) ذو المعادلة \( y = 2x + 1 \) هو مستقيم مقارب مائل للمنحنى بجوار \( -\infty \).</li>
+            <li>أدرس وضعية المنحنى بالنسبة للمستقيم \( (\Delta) \).</li>
+        </ul>
+    </div>
+
+    <div class="exercise">
+        <span class="ex-head">التمرين الرابع: المناقشة الوسيطية</span>
+        <p>نعتبر الدالة \( f_m \) المعرفة بـ:</p>
+        <div class="math-box">
+            \( f_m(x) = \frac{m \cdot e^x}{e^x + 1} \)
+        </div>
+        <ul>
+            <li>ناقش حسب قيم الوسيط الحقيقي \( m \) عدد حلول المعادلة \( f_m(x) = 1 \).</li>
+        </ul>
+    </div>
+
+    <div class="exercise">
+        <span class="ex-head">التمرين الخامس: حل متراجحات</span>
+        <p>حل في مجموعة الأعداد الحقيقية المتراجحة التالية:</p>
+        <div class="math-box">
+            \( 2e^{2x} - 5e^x + 2 > 0 \)
+        </div>
+    </div>
+
+    <div class="section-title">ثانياً: الدوال اللوغاريتمية</div>
+
+    <div class="exercise">
+        <span class="ex-head">التمرين السادس: مجموعات التعريف</span>
+        <p>حدد مجموعة التعريف \( D_f \) لكل دالة مما يلي:</p>
+        <div class="math-box">
+            1) \( f(x) = \ln(x^2 - 4) \) <br>
+            2) \( g(x) = \ln \left( \frac{x+1}{x-1} \right) \)
+        </div>
+    </div>
+
+    <div class="exercise">
+        <span class="ex-head">التمرين السابع: دراسة دالة لوغاريتمية</span>
+        <p>لتكن \( f \) معرفة على المجال \( ]0 ; +\infty[ \) بـ:</p>
+        <div class="math-box">
+            \( f(x) = x + \ln(x) \)
+        </div>
+        <ul>
+            <li>أدرس نهايات الدالة عند أطراف مجال تعريفها.</li>
+            <li>بين أن المعادلة \( f(x) = 0 \) تقبل حلاً وحيداً \( \alpha \) في المجال \( [0.5 , 0.6] \).</li>
+        </ul>
+    </div>
+
+    <div class="exercise">
+        <span class="ex-head">التمرين الثامن: التزايد المقارن</span>
+        <p>نعتبر الدالة \( h \) المعرفة على \( ]0 ; +\infty[ \) بـ:</p>
+        <div class="math-box">
+            \( h(x) = \frac{\ln(x)}{x^2} \)
+        </div>
+        <ul>
+            <li>أحسب المشتقة \( h'(x) \) وأدرس إشارتها.</li>
+            <li>عين القيمة الحدية الكبرى للدالة.</li>
+        </ul>
+    </div>
+
+    <div class="exercise">
+        <span class="ex-head">التمرين التاسع: تركيب الدوال</span>
+        <p>نعتبر الدالة \( \phi \) المعرفة على \( \mathbb{R} \) بـ:</p>
+        <div class="math-box">
+            \( \phi(x) = \ln(e^{2x} - e^x + 1) \)
+        </div>
+        <ul>
+            <li>أدرس تغيرات الدالة \( \phi \).</li>
+            <li>أثبت أن المنحنى يقبل مستقيماً مقارباً مائلاً بجوار \( +\infty \).</li>
+        </ul>
+    </div>
+
+    <div class="exercise">
+        <span class="ex-head">التمرين العاشر: المعادلات اللوغاريتمية</span>
+        <p>حل في مجموعة الأعداد الحقيقية المعادلة التالية:</p>
+        <div class="math-box">
+            \( \ln(x+2) + \ln(x-1) = \ln(4) \)
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>كل الحقوق محفوظة لمنصة نوفل التعليمية &copy; 2024</p>
+    </div>
+</div>
+
+</body>
+</html>
